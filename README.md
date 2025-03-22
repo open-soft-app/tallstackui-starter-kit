@@ -1,17 +1,15 @@
-# Laravel + Unstyled Blade Starter Kit
+# Laravel + TallStackUI Starter Kit
 
 ## Introduction
 
-Our Laravel + Unstyled Blade starter kit provides a lightweight and flexible foundation for building Laravel applications with Blade, without any predefined styles.
-It includes a built-in authentication system and provides unstyled views and layouts, allowing you to customize them as you wish.
-You can install your favorite libraries and CSS frameworks, such as Bootstrap, Tailwind, NES.css, Alpine, etc., or choose not to use any framework at all and design everything from scratch.
+....
 
 ## Installation
 
 Installation can be done by laravel installer.
 
 ```bash
-laravel new my-app --using=javdome/unstyled-blade-starter-kit
+laravel new my-app --using=open-soft-app/tallstackui-starter-kit
 ```
 
 ## Official Documentation

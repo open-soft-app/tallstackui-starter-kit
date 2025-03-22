@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "javdome/unstyled-blade-starter-kit",
+    "name": "open-soft-app/tallstackui-starter-kit",
     "type": "project",
     "description": "A basic Laravel Blade starter kit with no CSS framework",
     "keywords": [
