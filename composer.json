@@ -2,14 +2,17 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "open-soft-app/tallstackui-starter-kit",
     "type": "project",
-    "description": "A basic Laravel Blade starter kit with no CSS framework",
+    "description": "A Laravel starter kit with TallStackUI",
     "keywords": [
         "laravel",
-        "framework"
+        "framework",
+        "starter kit",
+        "tall stack UI",
+        "livewire"
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.2|^8.3",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.0",
@@ -52,7 +55,6 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi",
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@php artisan key:generate"            
         ],
         "dev": [
