@@ -42,9 +42,9 @@
             <!-- Page Content -->
             <main>
                 
-                <x-ts-checkbox label="Receive Alert" />
+                <x-checkbox label="Receive Alert" />
 
-                <x-ts-checkbox label="Receive Alert" position="left" />
+                <x-checkbox label="Receive Alert" position="left" />
                 
                 {{ $slot }}
             </main>

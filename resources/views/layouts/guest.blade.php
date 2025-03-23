@@ -9,19 +9,28 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
+        <!-- Styles -->
+        @livewireStyles
     </head>
     <body>
-        <div>
+        {{-- <div>
             <div>
                 <a href="/">
                     Logo
-                    {{-- <x-application-logo /> --}}
+                    <x-application-logo />
                 </a>
             </div>
 
             <div>
                 {{ $slot }}
             </div>
+        </div> --}}
+        
+        <div class="font-sans text-gray-900 dark:text-gray-100 antialiased">
+            {{ $slot }}
         </div>
+        
+        @livewireScripts
     </body>
 </html>
